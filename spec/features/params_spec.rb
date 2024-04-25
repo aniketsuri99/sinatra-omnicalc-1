@@ -1,3 +1,5 @@
+require "rails_helper"
+
 describe "/square/new" do
   it "has one form element", points: 1 do
     visit "/square/new"
